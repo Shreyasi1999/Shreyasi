@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-13T15:49:39.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.initialize()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verification of the URL",
+        "description": "",
+        "id": "feature-to-test-opening-the-browser-functionality;verification-of-the-url",
+        "after": [
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyHooks.Hooks.down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9036110100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDefinition.Sample.open_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3270080800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "enter the \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDefinition.Sample.enter_the(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 293735600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.before()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "Page is displayed",
+            "match": {
+              "location": "StepDefinition.Sample.page_is_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "MyHooks.Hooks.after()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test opening the browser functionality",
+    "description": "",
+    "id": "feature-to-test-opening-the-browser-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Sample.feature",
+    "tags": []
+  }
+]

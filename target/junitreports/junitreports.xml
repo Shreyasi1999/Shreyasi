@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="43.026">
+    <testcase classname="feature to test opening the browser functionality" name="Verification of the URL" time="15.117">
+        <system-out><![CDATA[Given open the browser......................................................passed
+When enter the "https://www.google.com".....................................passed
+Then Page is displayed......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test search functionality" name="Check search is successful or not" time="13.4">
+        <system-out><![CDATA[Given user is on the search page "https://www.google.com/"..................passed
+When user enters 'java' data................................................passed
+And click on search.........................................................passed
+Then user is navigated to the search page...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test search functionality" name="Check search is successful or not 2" time="13.761">
+        <system-out><![CDATA[Given user is on the search page "https://www.google.com/"..................passed
+When user enters 'selenium' data............................................passed
+And click on search.........................................................passed
+Then user is navigated to the search page...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
